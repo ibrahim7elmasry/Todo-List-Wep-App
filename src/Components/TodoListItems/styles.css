@@ -1,0 +1,64 @@
+.listItems{
+    background: white;
+    color: #66947d;
+ 
+}
+
+.listItems p {
+    text-align: center;
+    margin: 0;
+    padding: 10px 0px;
+    font-weight: bold;
+}
+
+.listItems span{
+    display: inline-block;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 20px;
+    border: 0.3px solid #ccc;
+   
+}
+
+.listItems span.title{
+    color: white;
+    background: #334b3f;
+}
+
+
+.listItems span.task,form input[type=text]{
+    width: 80%;
+    font-weight: bold;
+    
+}
+
+
+.listItems span.action,form input[type=submit]{
+    width: 20%;
+    font-weight: bold;
+    cursor: pointer;
+    
+
+}
+
+.listItems span.icon{
+    color: red;
+    cursor: pointer;
+  
+}
+
+form input{
+    padding: 10px;
+    border: transparent;
+    color:#11422a;
+    border: 0.3px solid #ccc;
+    font-weight: bold;
+    
+}
+
+form input [type=submit]{
+    background: #66947d;
+    color: #fff;
+    border: 0.3px solid #66947d;
+    cursor: pointer;
+}
